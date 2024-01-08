@@ -66,11 +66,9 @@ The "E-Commerce Customer" dataset records customer transactions on an e-commerce
 
 An approach involves ensemble modeling through the creation of multiple samples with different percentages. Decision trees are then linked for analysis, and the ensemble node is used to combine the results.
 
-## Results and Analysis
+![SAS_outcome](Picture 2.jpg)
 
-Results, including model outputs, data integration logs, and data quality reports, are available in the `results` directory. Visualizations and a comprehensive analysis of these results are provided in the project files.
 
-## Reflections or Learning Outcomes
 
 Throughout the learning journey focused on customer behavior analysis, i employed Talend Integration and Talend Preprocessing for data preparation, while SAS Enterprise Miner served as a powerful tool for Decision Tree Analysis. Additionally, Ensemble Methods such as Bagging and Boosting were applied, emphasizing the Random Forest algorithm as a Bagging example.
 
@@ -105,7 +103,7 @@ Throughout the learning journey focused on customer behavior analysis, i employe
 - Observations at depth 5 achieved a perfect match.
 - The assessment score distribution illustrates the model's ability to differentiate between high and low predicted churn probabilities.
 
-## Learnings
+## Reflections or Learning Outcomes
 
 ### 1. Data Integration with Talend:
 - Learned to seamlessly integrate diverse datasets using Talend Integration.
