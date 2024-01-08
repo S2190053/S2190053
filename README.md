@@ -61,16 +61,12 @@ The "E-Commerce Customer" dataset records customer transactions on an e-commerce
 4. Apply Bagging Random Forest and Boosting using Random Forest.
 5. Evaluate the models' performance on training, validation, and test datasets.
 
+![Outcome](Picture2.jpg)
+
 
 ## Ensemble Method
 
 An approach involves ensemble modeling through the creation of multiple samples with different percentages. Decision trees are then linked for analysis, and the ensemble node is used to combine the results.
-
-![SAS_outcome](Picture 2.jpg)
-
-
-
-Throughout the learning journey focused on customer behavior analysis, i employed Talend Integration and Talend Preprocessing for data preparation, while SAS Enterprise Miner served as a powerful tool for Decision Tree Analysis. Additionally, Ensemble Methods such as Bagging and Boosting were applied, emphasizing the Random Forest algorithm as a Bagging example.
 
 
 ## Result analysis
@@ -151,6 +147,3 @@ Throughout the learning journey focused on customer behavior analysis, i employe
 
 ## Conclusion
 In conclusion, the integration of Talend, Talend Preprocessing, and SAS Enterprise Miner, coupled with the application of Ensemble Methods, provided a holistic approach to customer behavior analysis. The journey was marked by valuable learnings, persistent challenges, and effective strategies to overcome them, ultimately contributing to the successful creation of a decision tree model for insightful analysis of customer behavior.
-
-
-
