@@ -1,0 +1,571 @@
+CustomerID,Age,Gender,Location,MembershipLevel,TotalPurchases,TotalSpent,FavoriteCategory,LastPurchaseDate,Occupation,WebsiteVisitsFrequency,Churn
+1,30,Male,Selangor,Gold,10,500,Electronics,12/1/2023,Engineer,High,0
+2,25,Female,Kuala Lumpur,Silver,5,50,Clothing,11/15/2023,Student,Medium,1
+3,40,Male,Penang,Bronze,15,800,HomeGoods,12/20/2023,Doctor,Low,0
+4,35,Female,Johor,Platinum,20,1200,Electronics,12/10/2023,Lawyer,High,0
+5,28,Male,Melaka,Silver,8,400,Clothing,12/5/2023,Teacher,Medium,1
+6,45,Female,Negeri Sembilan,Gold,12,700,HomeGoods,11/30/2023,Artist,High,0
+7,32,Male,Terengganu,Bronze,18,950,Electronics,12/25/2023,IT Analyst,Medium,0
+8,27,Female,Pahang,Silver,7,350,Clothing,11/28/2023,Nurse,Low,1
+9,38,Male,Sabah,Gold,14,900,HomeGoods,12/18/2023,Manager,High,0
+10,31,Female,Sarawak,Platinum,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+11,22,Male,Perlis,Silver,3,200,Clothing,12/14/2023,Student,High,1
+12,50,Female,Kelantan,Gold,25,,HomeGoods,12/22/2023,Entrepreneur,Low,0
+13,29,Male,Selangor,Bronze,10,600,Electronics,12/12/2023,Software Engineer,Medium,0
+14,33,Female,Kuala Lumpur,Platinum,30,1500,Clothing,12/3/2023,Marketing Manager,Low,0
+15,42,Male,Penang,Gold,17,1100,HomeGoods,11/25/2023,Consultant,Medium,1
+16,36,Female,Johor,Silver,16,950,Clothing,12/28/2023,Engineer,High,0
+17,26,Male,Kuala Lumpur,Gold,8,480,Electronics,12/16/2023,Student,Medium,1
+18,34,Female,Selangor,Bronze,12,750,HomeGoods,11/30/2023,Sales,High,0
+19,44,Male,Pahang,Silver,14,850,Clothing,12/18/2023,Manager,High,1
+20,28,Female,Terengganu,Platinum,20,1300,Electronics,12/10/2023,Artist,Low,0
+21,31,Male,Perlis,Bronze,10,550,Electronics,12/15/2023,Engineer,High,0
+22,27,Female,Melaka,Silver,6,320,HomeGoods,12/1/2023,Student,Medium,1
+23,35,Male,Selangor,Platinum,18,1100,Clothing,11/25/2023,Manager,Low,0
+24,42,Female,Kuala Lumpur,Gold,4,900,Electronics,12/10/2023,Doctor,Medium,0
+25,29,Male,Penang,Silver,12,700,Clothing,11/30/2023,Teacher,Medium,1
+26,46,Female,Terengganu,Bronze,15,850,HomeGoods,12/16/2023,Entrepreneur,High,0
+27,33,Male,Johor,Platinum,20,950,Electronics,12/20/2023,Lawyer,Medium,0
+28,28,Female,Sarawak,Gold,14,780,Clothing,11/15/2023,Artist,Low,1
+29,36,Male,Pahang,Silver,14,600,Electronics,12/5/2023,IT Analyst,Medium,0
+30,23,Female,Kuala Lumpur,Bronze,8,420,Home Goods,11/28/2023,Nurse,Low,1
+31,40,Male,Johor,Gold,22,1400,Electronics,12/8/2023,Scientist,High,0
+32,26,Female,Selangor,Platinum,30,1300,Clothing,12/14/2023,Student,Low,0
+33,29,Male,Penang,Gold,17,1100,HomeGoods,11/30/2023,Consultant,Medium,0
+34,38,Female,Johor,Silver,16,950,Electronics,12/28/2023,Engineer,Low,0
+35,25,Male,Sabah,Bronze,8,480,Clothing,12/16/2023,Student,High,1
+36,34,Female,Kuala Lumpur,Silver,14,750,Home Goods,11/30/2023,Sales,Medium,0
+37,45,Male,Pahang,Gold,14,850,Clothing,12/18/2023,Manager,Medium,1
+38,28,Female,Selangor,Platinum,20,,Electronics,11/15/2023,Artist,Low,0
+39,31,Male,Perlis,Bronze,8,550,Electronics,12/15/2023,Engineer,Medium,0
+40,27,Female,Melaka,Silver,6,320,HomeGoods,12/1/2023,Student,Low,1
+41,32,Male,Terengganu,Silver,14,1300,Electronics,11/20/2023,IT Analyst,Medium,0
+42,25,Female,Penang,Bronze,7,450,HomeGoods,11/15/2023,Teacher,High,1
+43,38,Male,Selangor,Platinum,20,1200,Clothing,12/8/2023,Manager,Low,0
+44,29,Female,Kuala Lumpur,Gold,12,700,Electronics,11/28/2023,Artist,Low,1
+45,44,Male,Johor,Silver,15,900,HomeGoods,12/5/2023,Engineer,Medium,0
+46,27,Female,Sabah,Gold,18,1100,Electronics,12/10/2023,Nurse,Low,0
+47,36,Male,Pahang,Bronze,10,600,Clothing,12/15/2023,Scientist,High,1
+48,23,Female,Kuala Lumpur,Silver,16,350,Home Goods,12/22/2023,Entrepreneur,Medium,0
+49,30,Male,Penang,Platinum,22,1400,Electronics,12/25/2023,Doctor,Low,0
+50,28,Female,Selangor,Gold,16,950,Clothing,12/18/2023,Sales,High,1
+51,35,Male,Johor,Bronze,9,500,HomeGoods,12/28/2023,Engineer,Medium,0
+52,26,Female,Kuala Lumpur,Silver,14,,Electronics,12/10/2023,Manager,Medium,1
+53,41,Male,Sabah,Gold,25,2400,Clothing,12/15/2023,Artist,Low,0
+54,29,Female,Terengganu,Platinum,12,700,Electronics,11/30/2023,Software Engineer,High,0
+55,34,Male,Pahang,Silver,18,1200,Clothing,12/8/2023,Teacher,Medium,1
+56,22,Female,Kuala Lumpur,Bronze,8,450,Home Goods,12/14/2023,Student,High,0
+57,37,Male,Penang,Gold,15,900,Electronics,11/25/2023,Manager,Medium,0
+58,30,Female,Johor,Silver,20,1300,Clothing,12/18/2023,Scientist,Low,0
+59,26,Male,Selangor,Platinum,27,800,HomeGoods,12/5/2023,Engineer,High,1
+60,31,Female,Kuala Lumpur,Bronze,22,150000,Electronics,12/20/2023,Entrepreneur,High,0
+61,28,Male,Selangor,Gold,14,800,Electronics,12/1/2023,Engineer,Low,0
+62,33,Female,Kuala Lumpur,Silver,13,350,Home Goods,11/28/2023,Nurse,High,1
+63,39,Male,Penang,Platinum,20,1200,Clothing,12/18/2023,Scientist,Medium,0
+64,24,Female,Jehor,Gold,16,950,Electronics,12/8/2023,Artist,Medium,0
+65,32,Male,Sabah,Silver,18,1100,HomeGoods,12/10/2023,Lawyer,Low,1
+66,29,Female,Pahang,Bronze,11,500,Clothing,12/15/2023,IT Analyst,Medium,0
+67,36,Male,Kuala Lumpur,Gold,25,1300,Electronics,11/20/2023,Doctor,High,1
+68,26,Female,Penang,Silver,14,800,HomeGoods,12/5/2023,Teacher,Medium,0
+69,42,Male,Selangor,Platinum,20,1200,Clothing,12/10/2023,Manager,Low,0
+70,28,Female,Kuala Lumpur,Gold,16,950,Electronics,12/8/2023,Artist,Low,1
+71,35,Male,Selangor,Silver,18,1100,HomeGoods,12/14/2023,Student,Medium,0
+72,27,Female,Penang,Bronze,15,1000,Clothing,12/28/2023,Engineer,Low,1
+73,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/8/2023,Entrepreneur,Medium,0
+74,28,Female,Sabah,Gold,25,1600,HomeGoods,12/22/2023,Marketing Manager,High,1
+75,33,Male,Terengganu,Silver,20,1300,Clothing,12/10/2023,Sales,Low,0
+76,26,Female,KualaiLumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+77,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,Low,1
+78,30,Female,Johor,Silver,20,1000,Clothing,12/5/2023,Artist,Low,0
+79,26,Male,Pahang,Platinum,16,750,Electronics,11/30/2023,Engineer,Medium,0
+80,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+81,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+82,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+83,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+84,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+85,36,Male,Sabah,Silver,17,600,Clothing,11/28/2023,Software Engineer,Low,1
+86,29,Female,Pahang,Bronze,10,700,HomeGoods,12/18/2023,Manager,High,0
+87,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+88,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Medium,1
+89,31,Male,Penang,Silver,14,800,HomeGoods,12/18/2023,Engineer,Low,0
+90,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,1
+91,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+92,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+93,39,Male,Kuala Lumpur,Platinum,22,1100,Clothing,12/10/2023,Manager,Low,0
+94,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+95,35,Male,Pahang,Silver,19,600,Clothing,12/15/2023,IT Analyst,Low,1
+96,29,Female,KualaLumpur,Bronze,15,900,Home Goods,11/28/2023,Entrepreneur,High,0
+97,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+98,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+99,42,Male,Sabah,Platinum,25,750,HomeGoods,11/30/2023,Engineer,Medium,1
+100,28,Female,KualaiLumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+101,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+102,27,Female,Penang,Bronze,15,400,HomeGoods,12/20/2023,Engineer,High,1
+103,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+104,28,Female,Sabah,Gold,25,1300,Clothing,12/22/2023,Marketing Manager,Medium,1
+105,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+106,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+107,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+108,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+109,26,Male,Pahang,Platinum,25,750,Electronics,11/30/2023,Engineer,Medium,0
+110,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+111,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+112,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+113,33,Male,Kuala Lumpur,Platinum,30,1600,Home Goods,12/20/2023,Entrepreneur,High,0
+114,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+115,36,Male,Sabah,Silver,17,600,Clothing,11/28/2023,Software Engineer,Low,1
+116,29,Female,Pahang,Bronze,10,200,HomeGoods,12/18/2023,Manager,High,0
+117,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+118,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+119,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,Low,0
+120,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,1
+121,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+122,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+123,39,Male,Kuala Lumpur,Platinum,22,800,Clothing,11/25/2023,Manager,Low,0
+124,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+125,35,Male,Pahang,Silver,17,600,Clothing,12/15/2023,IT Analyst,Low,1
+126,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/1/2023,Entrepreneur,High,0
+127,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+128,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+129,42,Male,Sabah,Platinum,25,750,HomeGoods,11/30/2023,Engineer,Medium,1
+130,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+131,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+132,27,Female,Penang,Bronze,15,500,HomeGoods,12/20/2023,Engineer,High,1
+133,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+134,28,Female,Sabah,Gold,25,700,Clothing,12/22/2023,Marketing Manager,Medium,1
+135,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+136,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+137,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+138,30,Female,Johor,Silver,20,1400,Clothing,12/5/2023,Artist,Low,0
+139,26,Male,Pahang,Platinum,27,750,Electronics,11/30/2023,Engineer,Medium,0
+140,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+141,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+142,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+143,33,Male,Kuala Lumpur,Platinum,30,1500,HomeGoods,12/20/2023,Entrepreneur,High,0
+144,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+145,36,Male,Sabah,Silver,15,600,Clothing,11/28/2023,Software Engineer,Low,1
+146,29,Female,Pahang,Bronze,10,740,HomeGoods,12/18/2023,Manager,High,0
+147,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+148,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+149,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,Medium,0
+150,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,1
+151,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+152,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+153,39,Male,KualaLumpur,Platinum,22,700,Clothing,11/25/2023,Manager,Low,0
+154,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+155,35,Male,Pahang,Silver,14,600,Clothing,12/15/2023,IT Analyst,Low,1
+156,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/1/2023,Entrepreneur,High,0
+157,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+158,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+159,42,Male,Sabah,Platinum,23,750,HomeGoods,11/30/2023,Engineer,Medium,1
+160,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+161,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+162,27,Female,Penang,Bronze,15,930,HomeGoods,12/20/2023,Engineer,High,1
+163,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+164,28,Female,Sabah,Gold,25,850,Clothing,12/22/2023,Marketing Manager,Medium,1
+165,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+166,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+167,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+168,30,Female,Johor,Silver,20,960,Clothing,12/5/2023,Artist,Low,0
+169,26,Male,Pahang,Platinum,17,750,Electronics,11/30/2023,Engineer,Medium,0
+170,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+171,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+172,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+173,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+174,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+175,36,Male,Sabah,Silver,17,600,Clothing,11/28/2023,Software Engineer,Low,1
+176,29,Female,Pahang,Bronze,10,580,HomeGoods,12/18/2023,Manager,High,0
+177,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+178,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+179,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,Low,0
+180,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,1
+181,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+182,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+183,39,Male,Kuala Lumpur,Platinum,22,1225,Clothing,12/15/2023,Manager,Low,0
+184,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+185,35,Male,Pahang,Silver,18,600,Clothing,12/15/2023,IT Analyst,Low,1
+186,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/25/2023,Entrepreneur,High,0
+187,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+188,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+189,42,Male,Sabah,Platinum,28,750,HomeGoods,11/30/2023,Engineer,Medium,1
+190,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+191,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+192,27,Female,Penang,Bronze,15,890,HomeGoods,12/20/2023,Engineer,High,1
+193,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+194,28,Female,Sabah,Gold,25,1500,Clothing,12/22/2023,Marketing Manager,Medium,1
+195,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+196,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+197,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+198,30,Female,Johor,Silver,20,700,Clothing,12/5/2023,Artist,Low,0
+199,26,Male,Pahang,Platinum,15,750,Electronics,11/30/2023,Engineer,Medium,0
+200,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+201,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+202,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+203,33,Male,Kuala Lumpur,Platinum,30,1340,Home Goods,12/20/2023,Entrepreneur,High,0
+204,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+205,36,Male,Sabah,Silver,16,600,Clothing,11/28/2023,Software Engineer,Low,1
+206,29,Female,Pahang,Bronze,10,350,HomeGoods,12/18/2023,Manager,High,0
+207,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+208,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+209,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,Low,0
+210,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+211,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+212,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+213,39,Male,Kuala Lumpur,Platinum,22,800,Clothing,12/10/2023,Manager,Low,0
+214,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+215,35,Male,Pahang,Silver,16,600,Clothing,12/15/2023,IT Analyst,Low,1
+216,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/15/2023,Entrepreneur,High,0
+217,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,High,1
+218,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+219,42,Male,Sabah,Platinum,24,750,HomeGoods,11/30/2023,Engineer,Medium,1
+220,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+221,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+222,27,Female,Penang,Bronze,15,370,HomeGoods,12/20/2023,Engineer,High,1
+223,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+224,28,Female,Sabah,Gold,25,1300,Clothing,12/22/2023,Marketing Manager,Medium,1
+225,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+226,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+227,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+228,30,Female,Johor,Silver,20,1100,Clothing,12/5/2023,Artist,Low,0
+229,26,Male,Pahang,Platinum,20,750,Electronics,11/30/2023,Engineer,Medium,0
+230,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+231,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+232,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+233,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+234,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+235,36,Male,Sabah,Silver,14,600,Clothing,11/28/2023,Software Engineer,Low,1
+236,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+237,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+238,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+239,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,Low,0
+240,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,1
+241,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+242,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+243,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+244,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+245,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+246,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+247,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+248,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+249,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+250,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+251,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+252,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+253,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+254,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+255,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+256,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+257,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+258,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+259,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+260,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+261,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+262,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+263,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+264,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+265,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+266,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+267,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+268,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+269,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+270,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+271,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+272,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+273,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+274,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+275,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+276,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+277,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+278,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+279,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+280,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+281,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+282,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+283,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+284,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+285,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+286,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+287,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+288,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+289,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+290,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+291,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+292,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+293,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+294,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+295,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+296,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+297,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+298,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+299,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+300,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+271,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+272,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+273,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+274,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+275,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+276,29,Female,Kuala Lumpur,Bronze,15,800,HomeGoods,12/2/2023,Entrepreneur,High,0
+277,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+278,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+279,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+280,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+281,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+282,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+283,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+284,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+285,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+286,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+287,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+288,30,Female,Jehor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+289,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+290,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+291,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+292,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+293,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+294,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+295,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+296,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+297,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+298,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+299,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+300,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+331,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+332,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+333,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+334,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+335,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+336,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+337,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+338,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+339,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+340,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+341,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+342,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+343,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+344,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+345,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+346,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+347,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+348,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+349,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+350,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+351,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+352,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+353,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+354,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+355,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+356,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+357,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+358,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+359,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+360,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+361,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+362,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+363,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+364,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+365,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+366,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+367,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+368,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+369,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+370,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+371,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+372,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+373,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+374,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+375,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+376,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+377,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+378,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+379,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+380,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+381,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+382,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+383,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+384,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+385,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+386,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+387,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+388,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+389,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+390,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+391,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+392,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+393,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+394,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+395,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+396,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+397,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+398,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+399,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+400,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+401,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+402,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+403,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+404,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+405,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+406,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+407,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+408,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+409,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+410,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+411,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+412,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+413,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+414,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+415,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+416,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+417,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+418,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+419,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+420,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+421,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+422,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+423,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+424,28,Female,Sabah,Gold,16,950,Electronics,12/10/2023,Artist,Medium,0
+425,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+426,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+427,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+428,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+429,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+430,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+431,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+432,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+433,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+434,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+435,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+436,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+437,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+438,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+439,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+440,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+441,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+442,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+443,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+444,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+445,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+446,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+447,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+448,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+449,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+450,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+451,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+452,26,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+453,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+454,28,Female,Sabah,Gold,11,950,Electronics,12/10/2023,Artist,Medium,0
+455,,Female,Pahang,Silver,18,800,Electronics,12/15/2023,IT Analyst,Low,1
+456,29,Female,Kuala Lumpur,Bronze,15,600,Home Goods,12/2/2023,Entrepreneur,High,0
+457,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+458,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,,Low,0
+459,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/5/2023,Engineer,Medium,1
+460,28,Female,Kuala Lumpur,Gold,18,1300,Electronics,12/25/2023,Artist,High,0
+461,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+462,27,Female,Penang,Bronze,15,700,Electronics,12/20/2023,Engineer,High,1
+463,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+464,,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+465,33,Male,Terengganu,Silver,20,1300,Clothing,12/10/2023,Sales,High,0
+466,26,Female,Kuala Lumpur,Bronze,7,450,Electronics,12/15/2023,Software Engineer,Medium,0
+467,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+468,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+469,26,Male,Pahang,Platinum,15,1300,Electronics,11/30/2023,Engineer,Medium,0
+470,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+471,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+472,29,Female,Penang,Bronze,17,800,Clothing,12/1/2023,IT Analyst,Medium,1
+473,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+474,,Female,Johor,Gold,12,950,Electronics,12/10/2023,Nurse,Medium,0
+475,36,Male,Sabah,Silver,18,950,,11/28/2023,,Low,1
+476,29,Female,Pahang,Bronze,6,600,HomeGoods,12/18/2023,Manager,High,0
+477,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+478,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+479,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+480,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,High,0
+481,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,,High,1
+482,,Female,Penang,Bronze,10,500,Electronics,11/25/2023,Nurse,Medium,0
+483,39,Male,Kuala Lumpur,Platinum,22,1200,Home Goods,11/30/2023,Manager,Low,0
+484,28,Female,Sabah,Gold,16,400,Electronics,12/10/2023,Artist,Medium,0
+485,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+486,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+487,36,Male,Selangor,Gold,20,680,Clothing,12/8/2023,Doctor,Medium,1
+488,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,Teacher,Low,0
+489,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+490,28,Female,Kuala Lumpur,Gold,17,1100,Electronics,12/25/2023,Artist,High,0
+491,35,Male,Selangor,Silver,16,950,Electronics,11/29/2023,Scientist,Medium,0
+492,27,Female,Penang,Bronze,15,600,HomeGoods,12/20/2023,Engineer,High,1
+493,30,Male,Kuala Lumpur,Platinum,22,500,Electronics,12/14/2023,Entrepreneur,High,0
+494,28,Female,Sabah,Gold,9,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+495,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+496,26,Female,Kuala Lumpur,Bronze,8,450,,12/15/2023,Software Engineer,Medium,0
+497,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+498,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+499,26,Male,Pahang,Platinum,18,900,Electronics,11/30/2023,Engineer,Medium,0
+500,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+501,35,Male,Selangor,Silver,16,1000,Electronics,12/14/2023,Scientist,Low,0
+502,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+503,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+504,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+505,36,Male,Sabah,Silver,19,950,Clothing,11/28/2023,Software Engineer,Low,1
+506,29,Female,Pahang,Bronze,10,800,HomeGoods,12/18/2023,Manager,High,0
+507,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+508,27,Female,Selangor,Platinum,16,720,Clothing,12/14/2023,Artist,Low,1
+509,31,Male,Penang,Silver,14,400,HomeGoods,12/20/2023,Engineer,High,0
+510,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+511,,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,Engineer,High,1
+512,26,Female,Penang,Bronze,10,500,Clothing,11/28/2023,Nurse,Medium,0
+513,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+514,28,Female,Sabah,Gold,16,1400,Electronics,12/10/2023,Artist,Medium,0
+515,35,Male,Pahang,Silver,18,800,Home Goods,12/15/2023,IT Analyst,Low,1
+516,29,Female,Kuala Lumpur,Bronze,15,800,Home Goods,12/2/2023,Entrepreneur,High,0
+517,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+518,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,,Low,0
+519,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+520,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+521,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+522,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+523,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+524,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+525,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+526,26,Female,Kuala Lumpur,Bronze,8,450,Electronics,12/15/2023,Software Engineer,Medium,0
+527,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+528,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+529,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+530,31,Female,Kuala Lumpur,Gold,22,1400,HomeGoods,11/25/2023,Teacher,High,1
+531,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+532,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+533,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+534,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+535,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+536,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+537,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+538,27,Female,Selangor,Platinum,16,980,Clothing,12/14/2023,Artist,Low,1
+539,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+540,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
+541,32,Male,Selangor,Gold,15,900,HomeGoods,12/1/2023,,High,1
+542,,Female,Penang,Bronze,10,500,Electronics,11/28/2023,Nurse,Medium,0
+543,39,Male,Kuala Lumpur,Platinum,22,1200,Clothing,11/30/2023,Manager,Low,0
+544,28,Female,Sabah,Gold,16,1500,Electronics,12/10/2023,Artist,Medium,0
+545,35,Male,Pahang,Silver,18,800,Clothing,12/15/2023,IT Analyst,Low,1
+546,29,Female,Kuala Lumpur,Bronze,15,800,Clothing,12/2/2023,Entrepreneur,High,0
+547,36,Male,Selangor,Gold,20,1200,Clothing,12/8/2023,Doctor,Medium,1
+548,27,Female,Penang,Silver,14,800,Electronics,12/5/2023,,Low,0
+549,42,Male,Sabah,Platinum,25,1500,HomeGoods,12/1/2023,Engineer,Medium,1
+550,28,Female,Kuala Lumpur,Gold,18,1100,Electronics,12/25/2023,Artist,High,0
+551,35,Male,Selangor,Silver,16,950,Clothing,11/29/2023,Scientist,Medium,0
+552,27,Female,Penang,Bronze,15,700,HomeGoods,12/20/2023,Engineer,High,1
+553,30,Male,Kuala Lumpur,Platinum,22,1400,Electronics,12/14/2023,Entrepreneur,Low,0
+554,28,Female,Sabah,Gold,25,1200,Clothing,12/22/2023,Marketing Manager,Medium,1
+555,33,Male,Terengganu,Silver,20,1300,HomeGoods,12/10/2023,Sales,High,0
+556,26,Female,Kuala Lumpur,Bronze,8,450,Home Goods,12/15/2023,Software Engineer,Medium,0
+557,37,Male,Selangor,Gold,15,900,HomeGoods,12/18/2023,Manager,High,1
+558,30,Female,Johor,Silver,20,1200,Clothing,12/5/2023,Artist,Low,0
+559,26,Male,Pahang,Platinum,15,900,Electronics,11/30/2023,Engineer,Medium,0
+560,31,Female,Kuala Lumpur,Gold,22,1400,Home Goods,11/25/2023,Teacher,High,1
+561,35,Male,Selangor,Silver,16,950,Electronics,12/14/2023,Scientist,Low,0
+562,29,Female,Penang,Bronze,17,1000,Clothing,12/1/2023,IT Analyst,Medium,1
+563,33,Male,Kuala Lumpur,Platinum,30,1500,Home Goods,12/20/2023,Entrepreneur,High,0
+564,28,Female,Johor,Gold,12,700,Electronics,12/10/2023,Nurse,Medium,0
+565,36,Male,Sabah,Silver,18,950,Clothing,11/28/2023,Software Engineer,Low,1
+566,29,Female,Pahang,Bronze,10,600,HomeGoods,12/18/2023,Manager,High,0
+567,34,Male,Kuala Lumpur,Gold,22,1500,Electronics,12/8/2023,Scientist,Medium,0
+568,27,Female,Selangor,Platinum,16,980,Electronics,12/14/2023,Artist,Low,1
+569,31,Male,Penang,Silver,14,800,HomeGoods,12/20/2023,Engineer,High,0
+570,26,Female,Kuala Lumpur,Bronze,18,1100,Electronics,11/25/2023,Student,Medium,0
